@@ -31,7 +31,8 @@ header button{
     margin-right: auto;
     margin-top: 70px;
     position: absolute;
-    /* display: none; */
+    display: none;
+    /* display: inline; */
 }
 div button{
     background-color: white;
@@ -54,10 +55,13 @@ main{
     border: 1px solid;
     padding: 30px;
     margin-bottom: 25px;
-    /* display: none; */
+    display: none;
 }
 #head{
     font-size: 25px;
+}
+span,button{
+    cursor: pointer;
 }
 main button{
     background-color: black;
